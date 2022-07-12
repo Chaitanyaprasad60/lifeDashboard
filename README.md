@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Description: 
+This is a website similar to habit tracker but shows a 
+complete progress over next month. 
+Similar to a habit visual tracker. 
+Inspired by principles in Atomic habits. 
+
+Techside (take 1 week to develop this) 
+
+As you're struggling with front end dev in angular 
+Make a website similar to neetcode.io 
+
+You'll store the state of the website in local storage 
+and then update, retrive it as we go 
+
+Features -- 
+
+1. Whole track ( Rather than I'll jog everyday, in this website you define
+goals like I'll job for 20 days for 10 minutes each day.  
+Then you'll reach a defining stage and write how you feel it . 
+
+2. A Dash board with all habits side by side 
+
+3. Daily wakeup Shot. These will be Quotes from books that tell something 
+interesting about life or work (Similar to Atomic habits blog) (Use sockets for this) 
+
+
