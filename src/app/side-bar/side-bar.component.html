@@ -1,0 +1,38 @@
+<mat-toolbar>
+    <mat-icon (click)="toggleSideBar()">menu</mat-icon>
+    <span>My Application</span>
+</mat-toolbar>
+
+
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer id="drawer" mode="side" [class.side-open]="isSideBarOpen" [class.side-close]="!isSideBarOpen" opened>
+        <mat-list>
+            Login User Details
+            <mat-list-item>
+                <button class="menu-item" mat-flat-button>
+                    <mat-icon>home</mat-icon>
+                    Home
+                </button>     
+            </mat-list-item>
+            <mat-list-item>
+                <button class="menu-item" mat-flat-button>
+                    <mat-icon>calendar_today</mat-icon>
+                    Schedule
+                </button>                
+            </mat-list-item>
+            <mat-list-item>
+                <button class="menu-item" mat-flat-button>
+                    <mat-icon>code</mat-icon>
+                    Source Code
+                </button>     
+            </mat-list-item>
+        </mat-list>
+
+
+
+
+    </mat-drawer>
+    <mat-drawer-container>
+        <p>Main Content</p>
+    </mat-drawer-container>
+</mat-drawer-container>
