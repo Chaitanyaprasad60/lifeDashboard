@@ -1,26 +1,9 @@
-#myPic{
-  width: 100%;
-  border-radius: 100%;
-}
-
-.myProfile{
-  display: flex;
-  align-items: center;
-  width: 90%;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 5vh;
-}
-
-.myProfile > *{
-  display: inline-block;
-  margin: 0;
-}
 
 .menuList{
   padding: 0;
   mat-icon{
-      margin-right: 20%;
-      margin-left: 10%;
+      // margin-right: 20%;
+      // margin-left: 10%;
+      margin: 10%;
   }
 }
