@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomePageComponent } from './home-page/home-page.component';
-import { SideBarComponent } from './side-bar/side-bar.component';
+import { SidebarComponent } from './side-bar/side-bar.component';
 import { MaterialModuleModule } from './material-module/material-module.module';
 
 
@@ -13,7 +13,7 @@ import { MaterialModuleModule } from './material-module/material-module.module';
   declarations: [
     AppComponent,
     HomePageComponent,
-    SideBarComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
